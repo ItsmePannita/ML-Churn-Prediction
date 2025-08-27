@@ -13,27 +13,28 @@ This project demonstrates the critical importance of detecting and resolving dat
 
 ## Project Notebooks
 
-### [1. Exploratory Data Analysis](01_EDA_Analysis.ipynb)
-- Dataset: 541,909 transactions from UCI Online Retail
-- Data cleaning: Removed 24.93% missing CustomerIDs, handled returns
-- Key discovery: 706 B2B transactions initially mistaken as duplicates
-- Final dataset: 392,617 clean transactions (72.4% retention)
+**[1. Exploratory Data Analysis](01_EDA_Analysis.ipynb)**
+* Dataset: 541,909 transactions from UCI Online Retail
+* Data cleaning: Removed 24.93% missing CustomerIDs, handled returns
+* Key discovery: 706 B2B transactions initially mistaken as duplicates
+* Final dataset: 392,617 clean transactions (72.4% retention)
 
-### [2. RFM Customer Segmentation](02_RFM_Segmentation.ipynb)
-- Segmentation method: Quantile-based RFM analysis
-- **Total customers analyzed: 3,212
-- Created 8 balanced customer segments
-- Key findings: Champions (0% churn), At Risk (56% churn), Lost (100% churn)
-- Enables targeted retention strategies per segment
+**[2. RFM Customer Segmentation](02_RFM_Segmentation_analysis.ipynb)**
+* Segmentation method: Quantile-based RFM analysis
+* Total customers analyzed: 3,212
+* Created 8 balanced customer segments
+* Key findings: Champions (0% churn), At Risk (56% churn), Lost (100% churn)
+* Enables targeted retention strategies per segment
 
-### [3. Churn Prediction Model](03_Churn_Prediction_Model.ipynb)
-- **Data Leakage Analysis**: Detected Recency feature correlation of 0.86 with target
-- **Model Comparison**: Logistic Regression, Random Forest, Gradient Boosting
-- **Final Model Performance**:
-  - Accuracy: 95.2%
-  - Precision: 90.5%
-  - Recall: 95.1%
-  - ROI: 915%
+**[3. Churn Prediction Model](03_Churn_Prediction_Model.ipynb)**
+* Data Leakage Analysis: Detected Recency feature correlation of 0.86 with target
+* Model Comparison: Logistic Regression, Random Forest, Gradient Boosting
+* Final Model Performance:
+   * Accuracy: 95.2%
+   * Precision: 90.5%
+   * Recall: 95.1%
+   * ROI: 915%
+
 
 ## Business Impact
 - Identifies 875 at-risk customers
