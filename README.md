@@ -21,7 +21,7 @@ This project demonstrates the critical importance of detecting and resolving dat
 
 ### [2. RFM Customer Segmentation](02_RFM_Segmentation.ipynb)
 - Segmentation method: Quantile-based RFM analysis
-- **Total customers analyzed: 3,212** ← ADD THIS
+- **Total customers analyzed: 3,212
 - Created 8 balanced customer segments
 - Key findings: Champions (0% churn), At Risk (56% churn), Lost (100% churn)
 - Enables targeted retention strategies per segment
