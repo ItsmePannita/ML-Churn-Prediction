@@ -8,7 +8,6 @@ This project demonstrates the critical importance of detecting and resolving dat
 ## Key Results
 - **Data Leakage Detected**: Initial 100% accuracy dropped to realistic 95.2% after removing temporal leakage
 - **Hidden B2B Discovery**: Found 706 shopping baskets with up to 81 items (B2B customers)
-- **Business Value**: 915% ROI with £400,596 net benefit
 - **Production Model**: Gradient Boosting with 95.2% accuracy
 
 ## Project Notebooks
